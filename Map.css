@@ -1,0 +1,18 @@
+body {
+    background-image: url("Background.png");
+    background-size: contain;
+    background-position: center;
+}
+
+.map-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#india-map {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}

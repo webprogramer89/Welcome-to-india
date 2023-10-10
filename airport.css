@@ -1,0 +1,33 @@
+/* Custom list style for airport cards */
+.airport-list {
+    list-style: none;
+    padding: 0;
+}
+
+.airport-list li {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #f9f9f9;
+    transition: background-color 0.3s;
+    /* Add background image URL here */
+    background-image: url('HD-wallpaper-airplane-aircraft-airport-aviation-deck-flight-flying-jet-runway-travel.jpg');
+    /* Set background image properties */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.airport-list li:hover {
+    background-color: #ddd;
+}
+
+.airport-name {
+    font-weight: bold;
+}
+
+.airport-location {
+    color: #777;
+}
